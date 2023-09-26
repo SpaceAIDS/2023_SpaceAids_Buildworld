@@ -394,6 +394,11 @@ ReplacePaintSurvival=False
     </PlayerToFactionsVis>
   </Factions>
   <Mods>
+    <ModItem FriendlyName="[MIG] SpecCores [DEV2]">
+      <Name>2903447763.sbm</Name>
+      <PublishedFileId>2903447763</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="SAIDSCoresAddon">
       <Name>3040878861.sbm</Name>
       <PublishedFileId>3040878861</PublishedFileId>

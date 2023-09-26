@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Configuration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Logging>false</Logging>
+  <MinimumRange>0.5</MinimumRange>
+  <MaximumRange>2.5</MaximumRange>
+  <SmallGridRangeFactor>0.35</SmallGridRangeFactor>
+  <MinimumDetectionProbability>0.65</MinimumDetectionProbability>
+  <MaximumDetectionprobability>0.995</MaximumDetectionprobability>
+  <SmallGridDetectionFactor>0.9</SmallGridDetectionFactor>
+  <NormalPowerUsage>0.5</NormalPowerUsage>
+  <WorkPowerUsage>15</WorkPowerUsage>
+  <SmallGridPowerFactor>0.25</SmallGridPowerFactor>
+  <WorkDuration>20</WorkDuration>
+  <CooldownDuration>5</CooldownDuration>
+  <EnableBroadcastPingOnScan>true</EnableBroadcastPingOnScan>
+  <BroadcastFactor>2</BroadcastFactor>
+  <ScanMessage>Scanning your ship</ScanMessage>
+  <DetectableItems>
+    <DetectableItem>
+      <DisplayName>Platinum ingots</DisplayName>
+      <ItemType>Ingot</ItemType>
+      <ItemSubtype>Platinum</ItemSubtype>
+      <MinimumQuantity>25</MinimumQuantity>
+      <DetectionModifier>1</DetectionModifier>
+    </DetectableItem>
+    <DetectableItem>
+      <DisplayName>Gold ingots</DisplayName>
+      <ItemType>Ingot</ItemType>
+      <ItemSubtype>Gold</ItemSubtype>
+      <MinimumQuantity>25</MinimumQuantity>
+      <DetectionModifier>1</DetectionModifier>
+    </DetectableItem>
+    <DetectableItem>
+      <DisplayName>Enriched uranium ingots</DisplayName>
+      <ItemType>Ingot</ItemType>
+      <ItemSubtype>Uranium</ItemSubtype>
+      <MinimumQuantity>15</MinimumQuantity>
+      <DetectionModifier>1</DetectionModifier>
+    </DetectableItem>
+    <DetectableItem>
+      <DisplayName>Silver ingots</DisplayName>
+      <ItemType>Ingot</ItemType>
+      <ItemSubtype>Silver</ItemSubtype>
+      <MinimumQuantity>25</MinimumQuantity>
+      <DetectionModifier>0.95</DetectionModifier>
+    </DetectableItem>
+    <DetectableItem>
+      <DisplayName>Magnesium powder</DisplayName>
+      <ItemType>Ingot</ItemType>
+      <ItemSubtype>Magnesium</ItemSubtype>
+      <MinimumQuantity>30</MinimumQuantity>
+      <DetectionModifier>0.9</DetectionModifier>
+    </DetectableItem>
+    <DetectableItem>
+      <DisplayName>Platinum ore</DisplayName>
+      <ItemType>Ore</ItemType>
+      <ItemSubtype>Platinum</ItemSubtype>
+      <MinimumQuantity>1000</MinimumQuantity>
+      <DetectionModifier>0.98</DetectionModifier>
+    </DetectableItem>
+    <DetectableItem>
+      <DisplayName>Gold ore</DisplayName>
+      <ItemType>Ore</ItemType>
+      <ItemSubtype>Gold</ItemSubtype>
+      <MinimumQuantity>1000</MinimumQuantity>
+      <DetectionModifier>0.98</DetectionModifier>
+    </DetectableItem>
+    <DetectableItem>
+      <DisplayName>Uranium ore</DisplayName>
+      <ItemType>Ore</ItemType>
+      <ItemSubtype>Uranium</ItemSubtype>
+      <MinimumQuantity>1000</MinimumQuantity>
+      <DetectionModifier>0.98</DetectionModifier>
+    </DetectableItem>
+    <DetectableItem>
+      <DisplayName>Silver ore</DisplayName>
+      <ItemType>Ore</ItemType>
+      <ItemSubtype>Silver</ItemSubtype>
+      <MinimumQuantity>1000</MinimumQuantity>
+      <DetectionModifier>0.95</DetectionModifier>
+    </DetectableItem>
+    <DetectableItem>
+      <DisplayName>Magnesium ore</DisplayName>
+      <ItemType>Ore</ItemType>
+      <ItemSubtype>Magnesium</ItemSubtype>
+      <MinimumQuantity>1000</MinimumQuantity>
+      <DetectionModifier>0.85</DetectionModifier>
+    </DetectableItem>
+    <DetectableItem>
+      <DisplayName>Superconducting coils</DisplayName>
+      <ItemType>Component</ItemType>
+      <ItemSubtype>Superconductor</ItemSubtype>
+      <MinimumQuantity>10</MinimumQuantity>
+      <DetectionModifier>1</DetectionModifier>
+    </DetectableItem>
+    <DetectableItem>
+      <DisplayName>Reactor control parts</DisplayName>
+      <ItemType>Component</ItemType>
+      <ItemSubtype>Reactor</ItemSubtype>
+      <MinimumQuantity>20</MinimumQuantity>
+      <DetectionModifier>0.9</DetectionModifier>
+    </DetectableItem>
+    <DetectableItem>
+      <DisplayName>Ion thrust stabilizers</DisplayName>
+      <ItemType>Component</ItemType>
+      <ItemSubtype>Thrust</ItemSubtype>
+      <MinimumQuantity>10</MinimumQuantity>
+      <DetectionModifier>1</DetectionModifier>
+    </DetectableItem>
+    <DetectableItem>
+      <DisplayName>Gravity articulators</DisplayName>
+      <ItemType>Component</ItemType>
+      <ItemSubtype>GravityGenerator</ItemSubtype>
+      <MinimumQuantity>10</MinimumQuantity>
+      <DetectionModifier>1</DetectionModifier>
+    </DetectableItem>
+    <DetectableItem>
+      <DisplayName>Medical datacores</DisplayName>
+      <ItemType>Component</ItemType>
+      <ItemSubtype>Medical</ItemSubtype>
+      <MinimumQuantity>4</MinimumQuantity>
+      <DetectionModifier>0.85</DetectionModifier>
+    </DetectableItem>
+  </DetectableItems>
+</Configuration>

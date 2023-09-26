@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="utf-16"?>
+<DisableBlocksSettingsConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NonFunctionalBlockGroupConfigs>
+    <BlockConfig Type="LightArmor" CanBuild="true" />
+    <BlockConfig Type="HeavyArmor" CanBuild="true" />
+    <BlockConfig Type="Beams" CanBuild="true" />
+    <BlockConfig Type="InteriorBlocks" CanBuild="true" />
+    <BlockConfig Type="CoverBlocks" CanBuild="true" />
+    <BlockConfig Type="NeonTubes" CanBuild="true" />
+    <BlockConfig Type="Shelves" CanBuild="true" />
+    <BlockConfig Type="StaticWheels" CanBuild="true" />
+    <BlockConfig Type="SubgridHeads" CanBuild="true" />
+    <BlockConfig Type="BlastDoors" CanBuild="true" />
+    <BlockConfig Type="SteelCatwalks" CanBuild="true" />
+    <BlockConfig Type="Passage" CanBuild="true" />
+    <BlockConfig Type="WindowsNonglass" CanBuild="true" />
+    <BlockConfig Type="WindowsGlass" CanBuild="true" />
+    <BlockConfig Type="Stairs" CanBuild="true" />
+    <BlockConfig Type="Railings" CanBuild="true" />
+    <BlockConfig Type="GratedCatwalk" CanBuild="true" />
+    <BlockConfig Type="Conveyors" CanBuild="true" />
+    <BlockConfig Type="LetterNumberBlocks" CanBuild="true" />
+    <BlockConfig Type="DeadEngineers" CanBuild="true" />
+  </NonFunctionalBlockGroupConfigs>
+  <FunctionalBlockConfigs>
+    <BlockGroupConfig BlockType="MyObjectBuilder_MyProgrammableBlock">
+      <BlockConfigs>
+        <BlockConfig Type="ProgrammableBlock" CanBuild="true" />
+        <BlockConfig Type="ProgrammableBlockReskin" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_Projector">
+      <BlockConfigs>
+        <BlockConfig Type="Console" CanBuild="true" />
+        <BlockConfig Type="Projector" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_SensorBlock">
+      <BlockConfigs>
+        <BlockConfig Type="Sensor" CanBuild="true" />
+        <BlockConfig Type="SensorReskin" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_SoundBlock">
+      <BlockConfigs>
+        <BlockConfig Type="SoundBlock" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_ButtonPanel">
+      <BlockConfigs>
+        <BlockConfig Type="AccessPanel3" CanBuild="true" />
+        <BlockConfig Type="ButtonPanel" CanBuild="true" />
+        <BlockConfig Type="ButtonPanelPedestal" CanBuild="true" />
+        <BlockConfig Type="InsetButtonPanel" CanBuild="true" />
+        <BlockConfig Type="SciFiButtonPanel" CanBuild="true" />
+        <BlockConfig Type="SciFiButtonTerminal" CanBuild="true" />
+        <BlockConfig Type="VerticalButtonPanel" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_TimerBlock">
+      <BlockConfigs>
+        <BlockConfig Type="TimerBlock" CanBuild="true" />
+        <BlockConfig Type="TimerBlockReskin" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_TurretControlBlock">
+      <BlockConfigs>
+        <BlockConfig Type="TurretControlBlock" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_EventControllerBlock">
+      <BlockConfigs>
+        <BlockConfig Type="EventController" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_PathRecorderBlock">
+      <BlockConfigs>
+        <BlockConfig Type="PathRecorderBlock" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_BasicMissionBlock">
+      <BlockConfigs>
+        <BlockConfig Type="BasicMissionBlock" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_FlightMovementBlock">
+      <BlockConfigs>
+        <BlockConfig Type="FlightMovementBlock" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_DefensiveCombatBlock">
+      <BlockConfigs>
+        <BlockConfig Type="DefensiveCombatBlock" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_OffensiveCombatBlock">
+      <BlockConfigs>
+        <BlockConfig Type="OffensiveCombatBlock" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_RadioAntenna">
+      <BlockConfigs>
+        <BlockConfig Type="Antenna" CanBuild="true" />
+        <BlockConfig Type="AntennaDish" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_Beacon">
+      <BlockConfigs>
+        <BlockConfig Type="Beacon" CanBuild="true" />
+        <BlockConfig Type="BeaconReskin" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_RemoteControl">
+      <BlockConfigs>
+        <BlockConfig Type="RemoteControl" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_LaserAntenna">
+      <BlockConfigs>
+        <BlockConfig Type="LaserAntenna" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_Cockpit">
+      <BlockConfigs>
+        <BlockConfig Type="Bathroom" CanBuild="true" />
+        <BlockConfig Type="BathroomOpen" CanBuild="true" />
+        <BlockConfig Type="BuggyCockpit" CanBuild="true" />
+        <BlockConfig Type="CapCockpit" CanBuild="true" />
+        <BlockConfig Type="CockpitIndustrial" CanBuild="true" />
+        <BlockConfig Type="CockpitLarge" CanBuild="true" />
+        <BlockConfig Type="CockpitOpen" CanBuild="true" />
+        <BlockConfig Type="Couch" CanBuild="true" />
+        <BlockConfig Type="CouchCorner" CanBuild="true" />
+        <BlockConfig Type="DBLargeBlockFighterCockpit" CanBuild="true" />
+        <BlockConfig Type="Desk" CanBuild="true" />
+        <BlockConfig Type="DeskCorner" CanBuild="true" />
+        <BlockConfig Type="DeskCornerInv" CanBuild="true" />
+        <BlockConfig Type="Inset_PlantCouch" CanBuild="true" />
+        <BlockConfig Type="OffsetPassengerSeat" CanBuild="true" />
+        <BlockConfig Type="OpenCockpit" CanBuild="true" />
+        <BlockConfig Type="PassengerBench" CanBuild="true" />
+        <BlockConfig Type="RoverCockpit" CanBuild="true" />
+        <BlockConfig Type="SpeederCockpit" CanBuild="true" />
+        <BlockConfig Type="SpeederCockpitCompact" CanBuild="true" />
+        <BlockConfig Type="StandingBridge" CanBuild="true" />
+        <BlockConfig Type="Toilet" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_Kitchen">
+      <BlockConfigs>
+        <BlockConfig Type="Kitchen" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_CryoChamber">
+      <BlockConfigs>
+        <BlockConfig Type="Bed" CanBuild="true" />
+        <BlockConfig Type="CryoChamber" CanBuild="true" />
+        <BlockConfig Type="CryoRoom" CanBuild="true" />
+        <BlockConfig Type="HalfBed" CanBuild="true" />
+        <BlockConfig Type="HalfBedOffset" CanBuild="true" />
+        <BlockConfig Type="InsetBed" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_CargoContainer">
+      <BlockConfigs>
+        <BlockConfig Type="DisplayName_Block_Freight1" CanBuild="true" />
+        <BlockConfig Type="DisplayName_Block_Freight2" CanBuild="true" />
+        <BlockConfig Type="DisplayName_Block_Freight3" CanBuild="true" />
+        <BlockConfig Type="InsetBookshelf" CanBuild="true" />
+        <BlockConfig Type="LargeCargoContainer" CanBuild="true" />
+        <BlockConfig Type="LargeCargoContainerIndustrial" CanBuild="true" />
+        <BlockConfig Type="LockerRoom" CanBuild="true" />
+        <BlockConfig Type="LockerRoomCorner" CanBuild="true" />
+        <BlockConfig Type="Lockers" CanBuild="true" />
+        <BlockConfig Type="MediumCargoContainer" CanBuild="true" />
+        <BlockConfig Type="SmallCargoContainer" CanBuild="true" />
+        <BlockConfig Type="WeaponRack" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_Planter">
+      <BlockConfigs>
+        <BlockConfig Type="Planters" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_VendingMachine">
+      <BlockConfigs>
+        <BlockConfig Type="FoodDispenser" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_Jukebox">
+      <BlockConfigs>
+        <BlockConfig Type="DisplayName_Block_Jukebox" CanBuild="true" />
+        <BlockConfig Type="InsetEntertainmentCorner" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_LCDPanelsBlock">
+      <BlockConfigs>
+        <BlockConfig Type="DisplayName_Block_LabEquipment" CanBuild="true" />
+        <BlockConfig Type="DisplayName_Block_MedicalStation" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_TextPanel">
+      <BlockConfigs>
+        <BlockConfig Type="CornerLCD" CanBuild="true" />
+        <BlockConfig Type="CurvedLCDPanel" CanBuild="true" />
+        <BlockConfig Type="DiagonalLCDPanel" CanBuild="true" />
+        <BlockConfig Type="DisplayName_Block_CornerLCD2" CanBuild="true" />
+        <BlockConfig Type="DisplayName_Block_CornerLCDFlatBottom" CanBuild="true" />
+        <BlockConfig Type="DisplayName_Block_CornerLCDFlatTop" CanBuild="true" />
+        <BlockConfig Type="FullBlockLCDPanel" CanBuild="true" />
+        <BlockConfig Type="HoloLCD" CanBuild="true" />
+        <BlockConfig Type="LCDPanel" CanBuild="true" />
+        <BlockConfig Type="LCDPanel3x3" CanBuild="true" />
+        <BlockConfig Type="LCDPanel5x3Rot" CanBuild="true" />
+        <BlockConfig Type="LCDPanel5x5" CanBuild="true" />
+        <BlockConfig Type="LCDPanelWide" CanBuild="true" />
+        <BlockConfig Type="TextPanel" CanBuild="true" />
+        <BlockConfig Type="TransparentLCD" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_ReflectorLight">
+      <BlockConfigs>
+        <BlockConfig Type="OffsetSpotlight" CanBuild="true" />
+        <BlockConfig Type="ReflectorLight" CanBuild="true" />
+        <BlockConfig Type="RotatingLight" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_SolarPanel">
+      <BlockConfigs>
+        <BlockConfig Type="ColorableSolarPanel" CanBuild="true" />
+        <BlockConfig Type="ColorableSolarPanelCorner" CanBuild="true" />
+        <BlockConfig Type="ColorableSolarPanelCornerInverted" CanBuild="true" />
+        <BlockConfig Type="SolarPanel" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_WindTurbine">
+      <BlockConfigs>
+        <BlockConfig Type="WindTurbine" CanBuild="true" />
+        <BlockConfig Type="WindTurbineReskin" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_MedicalRoom">
+      <BlockConfigs>
+        <BlockConfig Type="MedicalRoom" CanBuild="true" />
+        <BlockConfig Type="MedicalRoomReskin" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_InteriorLight">
+      <BlockConfigs>
+        <BlockConfig Type="AirDuctLight" CanBuild="true" />
+        <BlockConfig Type="CornerLight" CanBuild="true" />
+        <BlockConfig Type="DisplayName_Block_CornerLightDouble" CanBuild="true" />
+        <BlockConfig Type="InsetAquarium" CanBuild="true" />
+        <BlockConfig Type="InsetKitchen" CanBuild="true" />
+        <BlockConfig Type="InsetLight" CanBuild="true" />
+        <BlockConfig Type="InteriorLight" CanBuild="true" />
+        <BlockConfig Type="LightPanel" CanBuild="true" />
+        <BlockConfig Type="OffsetLight" CanBuild="true" />
+        <BlockConfig Type="PassageSciFiLight" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_Warhead">
+      <BlockConfigs>
+        <BlockConfig Type="ExplosiveBarrel" CanBuild="true" />
+        <BlockConfig Type="Warhead" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_AirtightSlideDoor">
+      <BlockConfigs>
+        <BlockConfig Type="AirtightSlide Door" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_SafeZoneBlock">
+      <BlockConfigs>
+        <BlockConfig Type="SafeZone" CanBuild="false" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_ContractBlock">
+      <BlockConfigs>
+        <BlockConfig Type="ContractBlock" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_BatteryBlock">
+      <BlockConfigs>
+        <BlockConfig Type="Battery1x1Block" CanBuild="true" />
+        <BlockConfig Type="BatteryBlock" CanBuild="true" />
+        <BlockConfig Type="BatteryBlockWarfare2" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_Reactor">
+      <BlockConfigs>
+        <BlockConfig Type="LargeReactor" CanBuild="true" />
+        <BlockConfig Type="LargeReactorWarfare2" CanBuild="true" />
+        <BlockConfig Type="SmallReactor" CanBuild="true" />
+        <BlockConfig Type="SmallReactorWarfare2" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_HydrogenEngine">
+      <BlockConfigs>
+        <BlockConfig Type="HydrogenEngine" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_GravityGenerator">
+      <BlockConfigs>
+        <BlockConfig Type="GravityGenerator" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_GravityGeneratorSphere">
+      <BlockConfigs>
+        <BlockConfig Type="GravityGeneratorSphere" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_VirtualMass">
+      <BlockConfigs>
+        <BlockConfig Type="VirtualMass" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_SpaceBall">
+      <BlockConfigs>
+        <BlockConfig Type="SpaceBall" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_AirVent">
+      <BlockConfigs>
+        <BlockConfig Type="AirVent" CanBuild="true" />
+        <BlockConfig Type="AirVentFan" CanBuild="true" />
+        <BlockConfig Type="AirventFanFull" CanBuild="true" />
+        <BlockConfig Type="AirventFull" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_CameraBlock">
+      <BlockConfigs>
+        <BlockConfig Type="Camera" CanBuild="true" />
+        <BlockConfig Type="CameraTopMounted" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_EmotionControllerBlock">
+      <BlockConfigs>
+        <BlockConfig Type="EmotionController" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_LandingGear">
+      <BlockConfigs>
+        <BlockConfig Type="LandingGear" CanBuild="true" />
+        <BlockConfig Type="LargeMagneticPlate" CanBuild="true" />
+        <BlockConfig Type="MagneticPlate" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_Assembler">
+      <BlockConfigs>
+        <BlockConfig Type="Assembler" CanBuild="true" />
+        <BlockConfig Type="AssemblerIndustrial" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_ConveyorSorter">
+      <BlockConfigs>
+        <BlockConfig Type="ConveyorSorter" CanBuild="true" />
+        <BlockConfig Type="ConveyorSorterIndustrial" CanBuild="true" />
+        <BlockConfig Type="ConveyorSorterSmall" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_OxygenTank">
+      <BlockConfigs>
+        <BlockConfig Type="HydrogenTankSmall" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_Collector">
+      <BlockConfigs>
+        <BlockConfig Type="Collector" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_ShipConnector">
+      <BlockConfigs>
+        <BlockConfig Type="Connector" CanBuild="true" />
+        <BlockConfig Type="ConnectorSmall" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_ExtendedPistonBase">
+      <BlockConfigs>
+        <BlockConfig Type="ExtendedPistonBase" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_MotorStator">
+      <BlockConfigs>
+        <BlockConfig Type="MotorStator" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_MotorAdvancedStator">
+      <BlockConfigs>
+        <BlockConfig Type="LargeHinge" CanBuild="true" />
+        <BlockConfig Type="MotorAdvancedStator" CanBuild="true" />
+        <BlockConfig Type="MotorAdvancedStator3x3" CanBuild="true" />
+        <BlockConfig Type="SmallHinge" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_Refinery">
+      <BlockConfigs>
+        <BlockConfig Type="Blast Furnace" CanBuild="true" />
+        <BlockConfig Type="Refinery" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_SurvivalKit">
+      <BlockConfigs>
+        <BlockConfig Type="SurvivalKit" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_ExhaustBlock">
+      <BlockConfigs>
+        <BlockConfig Type="ExhaustPipe" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_MotorSuspension">
+      <BlockConfigs>
+        <BlockConfig Type="OffroadShortSuspension1x1" CanBuild="true" />
+        <BlockConfig Type="OffroadShortSuspension2x2" CanBuild="true" />
+        <BlockConfig Type="OffroadShortSuspension3x3" CanBuild="true" />
+        <BlockConfig Type="OffroadShortSuspension5x5" CanBuild="true" />
+        <BlockConfig Type="OffroadSuspension1x1" CanBuild="true" />
+        <BlockConfig Type="OffroadSuspension2x2" CanBuild="true" />
+        <BlockConfig Type="OffroadSuspension3x3" CanBuild="true" />
+        <BlockConfig Type="OffroadSuspension5x5" CanBuild="true" />
+        <BlockConfig Type="ShortSuspension1x1" CanBuild="true" />
+        <BlockConfig Type="ShortSuspension2x2" CanBuild="true" />
+        <BlockConfig Type="ShortSuspension3x3" CanBuild="true" />
+        <BlockConfig Type="ShortSuspension5x5" CanBuild="true" />
+        <BlockConfig Type="Suspension1x1" CanBuild="true" />
+        <BlockConfig Type="Suspension2x2" CanBuild="true" />
+        <BlockConfig Type="Suspension3x3" CanBuild="true" />
+        <BlockConfig Type="Suspension5x5" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_Door">
+      <BlockConfigs>
+        <BlockConfig Type="SideDoor" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_CubeBlock">
+      <BlockConfigs>
+        <BlockConfig Type="BarCounter" CanBuild="true" />
+        <BlockConfig Type="BarCounterCorner" CanBuild="true" />
+        <BlockConfig Type="DeskChairless" CanBuild="true" />
+        <BlockConfig Type="DeskChairlessCorner" CanBuild="true" />
+        <BlockConfig Type="DeskChairlessCornerInv" CanBuild="true" />
+        <BlockConfig Type="DisplayName_Block_Shower" CanBuild="true" />
+        <BlockConfig Type="EngineerPlushie" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_Thrust">
+      <BlockConfigs>
+        <BlockConfig Type="HydrogenThrust" CanBuild="true" />
+        <BlockConfig Type="LargeAtmoThrustFlat" CanBuild="true" />
+        <BlockConfig Type="LargeAtmoThrustFlatDShape" CanBuild="true" />
+        <BlockConfig Type="LargeHydrogenThrust" CanBuild="true" />
+        <BlockConfig Type="LargeThrust" CanBuild="true" />
+        <BlockConfig Type="SmallAtmoThrustFlat" CanBuild="true" />
+        <BlockConfig Type="SmallAtmoThrustFlatDShape" CanBuild="true" />
+        <BlockConfig Type="SmallThrust" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_Drill">
+      <BlockConfigs>
+        <BlockConfig Type="Drill" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_ShipGrinder">
+      <BlockConfigs>
+        <BlockConfig Type="ShipGrinder" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_ShipWelder">
+      <BlockConfigs>
+        <BlockConfig Type="ShipWelder" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_OreDetector">
+      <BlockConfigs>
+        <BlockConfig Type="OreDetector" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_JumpDrive">
+      <BlockConfigs>
+        <BlockConfig Type="JumpDrive" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_MergeBlock">
+      <BlockConfigs>
+        <BlockConfig Type="MergeBlock" CanBuild="true" />
+        <BlockConfig Type="MergeBlockSmall" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_Parachute">
+      <BlockConfigs>
+        <BlockConfig Type="Parachute Hatch" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_SmallMissileLauncher">
+      <BlockConfigs>
+        <BlockConfig Type="LargeCalibreGun" CanBuild="true" />
+        <BlockConfig Type="RocketLauncher" CanBuild="true" />
+        <BlockConfig Type="RocketLauncherWarfare2" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_SmallGatlingGun">
+      <BlockConfigs>
+        <BlockConfig Type="Autocannon" CanBuild="true" />
+        <BlockConfig Type="GatlingGun" CanBuild="true" />
+        <BlockConfig Type="GatlingGunWarfare2" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_HeatVentBlock">
+      <BlockConfigs>
+        <BlockConfig Type="HeatVentBlock" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_Decoy">
+      <BlockConfigs>
+        <BlockConfig Type="Decoy" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_LargeGatlingTurret">
+      <BlockConfigs>
+        <BlockConfig Type="GatlingTurret" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_LargeMissileTurret">
+      <BlockConfigs>
+        <BlockConfig Type="LargeCalibreTurret" CanBuild="true" />
+        <BlockConfig Type="MediumCalibreTurret" CanBuild="true" />
+        <BlockConfig Type="MissileTurret" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_InteriorTurret">
+      <BlockConfigs>
+        <BlockConfig Type="InteriorTurret" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_SmallMissileLauncherReload">
+      <BlockConfigs>
+        <BlockConfig Type="MediumCalibreGun" CanBuild="true" />
+        <BlockConfig Type="SmallRocketLauncherReload" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_TerminalBlock">
+      <BlockConfigs>
+        <BlockConfig Type="ControlPanel" CanBuild="true" />
+        <BlockConfig Type="SciFiTerminal" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="MyObjectBuilder_Ladder2">
+      <BlockConfigs>
+        <BlockConfig Type="Ladder2" CanBuild="true" />
+        <BlockConfig Type="LadderShaft" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+  </FunctionalBlockConfigs>
+  <ModBlockConfigs>
+    <BlockGroupConfig BlockType="3029280735.sbm">
+      <BlockConfigs>
+        <BlockConfig Type="AICore" CanBuild="true" />
+        <BlockConfig Type="AirtightHangarDoor" CanBuild="true" />
+        <BlockConfig Type="AirtightHangarDoorWarfare2A" CanBuild="true" />
+        <BlockConfig Type="AirtightHangarDoorWarfare2B" CanBuild="true" />
+        <BlockConfig Type="AirtightHangarDoorWarfare2C" CanBuild="true" />
+        <BlockConfig Type="AtmBlock" CanBuild="true" />
+        <BlockConfig Type="Cockpit" CanBuild="true" />
+        <BlockConfig Type="Door" CanBuild="true" />
+        <BlockConfig Type="EffectivenessModule" CanBuild="true" />
+        <BlockConfig Type="EnergyModule" CanBuild="true" />
+        <BlockConfig Type="Gate" CanBuild="true" />
+        <BlockConfig Type="HydrogenTank" CanBuild="true" />
+        <BlockConfig Type="HydrogenTankIndustrial" CanBuild="true" />
+        <BlockConfig Type="HydrogenThrustIndustrial" CanBuild="true" />
+        <BlockConfig Type="LargeAtmoThrust" CanBuild="true" />
+        <BlockConfig Type="LargeAtmoThrustSciFi" CanBuild="true" />
+        <BlockConfig Type="LargeHydrogenThrustIndustrial" CanBuild="true" />
+        <BlockConfig Type="LargeModularThruster" CanBuild="true" />
+        <BlockConfig Type="LargeThrustSciFi" CanBuild="true" />
+        <BlockConfig Type="OffsetDoor" CanBuild="true" />
+        <BlockConfig Type="OxygenFarm" CanBuild="true" />
+        <BlockConfig Type="OxygenGenerator" CanBuild="true" />
+        <BlockConfig Type="OxygenTank" CanBuild="true" />
+        <BlockConfig Type="PassengerSeat" CanBuild="true" />
+        <BlockConfig Type="ProductivityModule" CanBuild="true" />
+        <BlockConfig Type="RefineryIndustrial" CanBuild="true" />
+        <BlockConfig Type="SlidingHatchDoor" CanBuild="true" />
+        <BlockConfig Type="SlidingHatchDoorHalf" CanBuild="true" />
+        <BlockConfig Type="SmallAtmoThrust" CanBuild="true" />
+        <BlockConfig Type="SmallAtmoThrustSciFi" CanBuild="true" />
+        <BlockConfig Type="SmallModularThruster" CanBuild="true" />
+        <BlockConfig Type="SmallThrustSciFi" CanBuild="true" />
+        <BlockConfig Type="Starcore_FakeAntenna" CanBuild="true" />
+        <BlockConfig Type="StoreBlock" CanBuild="true" />
+        <BlockConfig Type="TargetDummy" CanBuild="true" />
+        <BlockConfig Type="VendingMachine" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="2621169600.sbm">
+      <BlockConfigs>
+        <BlockConfig Type="AQD_GyroBooster" CanBuild="true" />
+        <BlockConfig Type="AQD_GyroUpgrade" CanBuild="true" />
+        <BlockConfig Type="AQD_LG_LargeGyro" CanBuild="true" />
+        <BlockConfig Type="Gyroscope" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="1918681825.sbm">
+      <BlockConfigs>
+        <BlockConfig Type="AutoCannonTurret" CanBuild="true" />
+        <BlockConfig Type="Railgun" CanBuild="true" />
+        <BlockConfig Type="Searchlight" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="2016817336.sbm">
+      <BlockConfigs>
+        <BlockConfig Type="100mmTurret" CanBuild="true" />
+        <BlockConfig Type="200mmTurret" CanBuild="true" />
+        <BlockConfig Type="203mmHowitzer" CanBuild="true" />
+        <BlockConfig Type="300mmTurret" CanBuild="true" />
+        <BlockConfig Type="400mmTurret" CanBuild="true" />
+        <BlockConfig Type="500mmTurret" CanBuild="true" />
+        <BlockConfig Type="C203mmSingleTurret" CanBuild="true" />
+        <BlockConfig Type="C30mmRevolver" CanBuild="true" />
+        <BlockConfig Type="C30mmSingleT" CanBuild="true" />
+        <BlockConfig Type="CWIS" CanBuild="true" />
+        <BlockConfig Type="Discoball" CanBuild="true" />
+        <BlockConfig Type="H203mmSingleTurret" CanBuild="true" />
+        <BlockConfig Type="Railgunx" CanBuild="true" />
+        <BlockConfig Type="Railgunx150f" CanBuild="true" />
+        <BlockConfig Type="Railgunx75f" CanBuild="true" />
+        <BlockConfig Type="RailgunxTurret" CanBuild="true" />
+        <BlockConfig Type="RailgunxTurretM" CanBuild="true" />
+        <BlockConfig Type="RailgunxTurretS" CanBuild="true" />
+        <BlockConfig Type="RotaryCannon" CanBuild="true" />
+        <BlockConfig Type="TankPlasmaCannon" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="2696023344.sbm">
+      <BlockConfigs>
+        <BlockConfig Type="Cargo Scanner" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="2806101561.sbm">
+      <BlockConfigs>
+        <BlockConfig Type="AdminBattery" CanBuild="true" />
+        <BlockConfig Type="AdminOxygenGenerator" CanBuild="true" />
+        <BlockConfig Type="AdminSafeZone" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="2449073590.sbm">
+      <BlockConfigs>
+        <BlockConfig Type="MA_Buster_Camera" CanBuild="true" />
+        <BlockConfig Type="MA_Buster_Passage_Crossing" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="1365616918.sbm">
+      <BlockConfigs>
+        <BlockConfig Type="CompactEmitter" CanBuild="true" />
+        <BlockConfig Type="DS_Control" CanBuild="true" />
+        <BlockConfig Type="DS_Control_Table" CanBuild="true" />
+        <BlockConfig Type="Emitter" CanBuild="true" />
+        <BlockConfig Type="O2Generator" CanBuild="true" />
+        <BlockConfig Type="ShieldEnhancer" CanBuild="true" />
+        <BlockConfig Type="ShieldModulator" CanBuild="true" />
+        <BlockConfig Type="StationEmitter" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="2805859069.sbm">
+      <BlockConfigs>
+        <BlockConfig Type="StealthDrive" CanBuild="true" />
+        <BlockConfig Type="StealthDrive1x1" CanBuild="true" />
+        <BlockConfig Type="StealthHeatSink" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="2394430829.sbm">
+      <BlockConfigs>
+        <BlockConfig Type="ARYLYNX_PANDORA_EPSTEIN_DRIVE" CanBuild="true" />
+        <BlockConfig Type="AryxRCS" CanBuild="true" />
+        <BlockConfig Type="AryxRCSHalfRamp" CanBuild="true" />
+        <BlockConfig Type="AryxRCSRamp" CanBuild="true" />
+        <BlockConfig Type="AryxRCSSlant" CanBuild="true" />
+        <BlockConfig Type="LG_ARYLNX_AMUNRA_Epstein_Drive" CanBuild="true" />
+        <BlockConfig Type="LG_ARYLNX_DRUMMER_Epstein_Drive" CanBuild="true" />
+        <BlockConfig Type="LG_ARYLNX_Epstein_Drive" CanBuild="true" />
+        <BlockConfig Type="LG_ARYLNX_Mega_Epstein_Drive" CanBuild="true" />
+        <BlockConfig Type="LG_ARYLNX_ROCI_Epstein_Drive" CanBuild="true" />
+        <BlockConfig Type="LG_ARYLNX_RZ_Epstein_Drive" CanBuild="true" />
+        <BlockConfig Type="LG_ARYLNX_SCIR_Epstein_Drive" CanBuild="true" />
+        <BlockConfig Type="LG_ARYLYN_MUNR_Epstein_Drive" CanBuild="true" />
+        <BlockConfig Type="LG_ARYLYN_QUADRA_Epstein_Drive" CanBuild="true" />
+        <BlockConfig Type="LG_ARYLYN_RAIDER_Epstein_Drive" CanBuild="true" />
+        <BlockConfig Type="LG_ARYX_YACHT_DRIVE" CanBuild="true" />
+        <BlockConfig Type="rcsThruster1" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="2582915617.sbm">
+      <BlockConfigs>
+        <BlockConfig Type="Afterburner_LG_Ion_Large" CanBuild="true" />
+        <BlockConfig Type="DETPAK_BLOCK" CanBuild="true" />
+        <BlockConfig Type="DETPAK_BLOCK_1x1" CanBuild="true" />
+        <BlockConfig Type="DETPAK_BLOCK_3x1" CanBuild="true" />
+        <BlockConfig Type="MA_Afterburner_Large" CanBuild="true" />
+        <BlockConfig Type="MA_Afterburner_Large_5x" CanBuild="true" />
+        <BlockConfig Type="MA_Afterburner_Large_small" CanBuild="true" />
+        <BlockConfig Type="MA_SideBooster_Small" CanBuild="true" />
+        <BlockConfig Type="SRB" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="1663539021.sbm">
+      <BlockConfigs>
+        <BlockConfig Type="BlinkDrivePair" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="3026263372.sbm">
+      <BlockConfigs>
+        <BlockConfig Type="Gen_Radar_Base" CanBuild="true" />
+        <BlockConfig Type="MediumEWARBase" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="2995739798.sbm">
+      <BlockConfigs>
+        <BlockConfig Type="Coil250" CanBuild="true" />
+        <BlockConfig Type="HeavyPulseLaserBase" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="1864380341.sbm">
+      <BlockConfigs>
+        <BlockConfig Type="{LOC:DisplayName_AQD_LG_ConveyorAccess}" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="1935562523.sbm">
+      <BlockConfigs>
+        <BlockConfig Type="AQD_BannerLCD" CanBuild="true" />
+        <BlockConfig Type="AQD_BannerLCD1x4" CanBuild="true" />
+        <BlockConfig Type="AQD_BannerLCD2x2" CanBuild="true" />
+        <BlockConfig Type="AQD_BannerLCD4x4" CanBuild="true" />
+        <BlockConfig Type="AQD_BannerLCDHalf" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="2623116513.sbm">
+      <BlockConfigs>
+        <BlockConfig Type="[APES] Anti Projectile Energy System" CanBuild="true" />
+        <BlockConfig Type="[Trident] Torpedo Turret" CanBuild="true" />
+        <BlockConfig Type="Archer Missile Launch Bay" CanBuild="true" />
+        <BlockConfig Type="FEM-300 Heavy Repeater (Iron Maiden)" CanBuild="true" />
+        <BlockConfig Type="Large Null-Point Jump Disrupter" CanBuild="true" />
+        <BlockConfig Type="M1-A2 Main Battery Coilgun" CanBuild="true" />
+        <BlockConfig Type="M1-ThunderBolt-Gatling Gun" CanBuild="true" />
+        <BlockConfig Type="M42 TankGun" CanBuild="true" />
+        <BlockConfig Type="Mk1 Battleship Cannon" CanBuild="true" />
+        <BlockConfig Type="MK1 Railgun" CanBuild="true" />
+        <BlockConfig Type="MK2 Battleship Cannon" CanBuild="true" />
+        <BlockConfig Type="MK2 Railgun" CanBuild="true" />
+        <BlockConfig Type="MK3 Battleship Cannon" CanBuild="true" />
+        <BlockConfig Type="MK3 Railgun" CanBuild="true" />
+        <BlockConfig Type="Vulcan AutoCannon Turret" CanBuild="true" />
+        <BlockConfig Type="Vulcan SAMS Turret" CanBuild="true" />
+        <BlockConfig Type="VXM-08 Multi Launch Missile System" CanBuild="true" />
+        <BlockConfig Type="XMA-41 Guardian PDS" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="2782873241.sbm">
+      <BlockConfigs>
+        <BlockConfig Type="MyClaimBlock" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="2530716039.sbm">
+      <BlockConfigs>
+        <BlockConfig Type="ARYX_FocusBeamCompact" CanBuild="true" />
+        <BlockConfig Type="ARYX_FocusBeamTurret" CanBuild="true" />
+        <BlockConfig Type="ARYX_GladiatorMissileLauncher" CanBuild="true" />
+        <BlockConfig Type="ARYX_INTERCEPTOR" CanBuild="true" />
+        <BlockConfig Type="ARYX_PlasmaPulser" CanBuild="true" />
+        <BlockConfig Type="ARYX_SmallGravastarLaser" CanBuild="true" />
+        <BlockConfig Type="ARYX_SmallPlasmaRifle" CanBuild="true" />
+        <BlockConfig Type="ARYX_StarfallHIMARS" CanBuild="true" />
+        <BlockConfig Type="ARYX_StormCannon" CanBuild="true" />
+        <BlockConfig Type="ARYX_WindfallCannon" CanBuild="true" />
+        <BlockConfig Type="ARYXArgusLaser" CanBuild="true" />
+        <BlockConfig Type="AryxAtlas" CanBuild="true" />
+        <BlockConfig Type="AryxAtlasSlanted" CanBuild="true" />
+        <BlockConfig Type="AryxAuroraLaser" CanBuild="true" />
+        <BlockConfig Type="AryxBurstCannon" CanBuild="true" />
+        <BlockConfig Type="AryxBurstCannonSlanted" CanBuild="true" />
+        <BlockConfig Type="AryxCodex" CanBuild="true" />
+        <BlockConfig Type="AryxCodex_BaseSlant" CanBuild="true" />
+        <BlockConfig Type="AryxCompactPulseLaser" CanBuild="true" />
+        <BlockConfig Type="AryxCycloneCannon" CanBuild="true" />
+        <BlockConfig Type="AryxFixedChord" CanBuild="true" />
+        <BlockConfig Type="AryxFlakCannon" CanBuild="true" />
+        <BlockConfig Type="AryxFlareLauncher" CanBuild="true" />
+        <BlockConfig Type="AryxFlechetteMissileLauncher" CanBuild="true" />
+        <BlockConfig Type="AryxGaussTurret" CanBuild="true" />
+        <BlockConfig Type="AryxHeavyFlak" CanBuild="true" />
+        <BlockConfig Type="AryxHeavyTorpedoLauncher" CanBuild="true" />
+        <BlockConfig Type="AryxHurricaneCannon" CanBuild="true" />
+        <BlockConfig Type="AryxInlineTorpLauncher" CanBuild="true" />
+        <BlockConfig Type="AryxLaserShotgunStatic" CanBuild="true" />
+        <BlockConfig Type="ARYXLightRailGun" CanBuild="true" />
+        <BlockConfig Type="AryxMaceShotgun" CanBuild="true" />
+        <BlockConfig Type="AryxMagnetarCannon" CanBuild="true" />
+        <BlockConfig Type="AryxNovaBlasterSG" CanBuild="true" />
+        <BlockConfig Type="AryxNovaTurretBPair" CanBuild="true" />
+        <BlockConfig Type="ARYXNucleon_Base" CanBuild="true" />
+        <BlockConfig Type="ARYXNyxMissileRail" CanBuild="true" />
+        <BlockConfig Type="ARYXOculusLaser" CanBuild="true" />
+        <BlockConfig Type="ARYXPhaseRepeaterCannon" CanBuild="true" />
+        <BlockConfig Type="AryxPicketRailTurret" CanBuild="true" />
+        <BlockConfig Type="AryxPulsarCannon" CanBuild="true" />
+        <BlockConfig Type="AryxPulseLaser" CanBuild="true" />
+        <BlockConfig Type="AryxQuasarCannon" CanBuild="true" />
+        <BlockConfig Type="AryxRadar" CanBuild="true" />
+        <BlockConfig Type="AryxRailgunTurret" CanBuild="true" />
+        <BlockConfig Type="AryxReaperTurret" CanBuild="true" />
+        <BlockConfig Type="ARYXSabreMissileRail" CanBuild="true" />
+        <BlockConfig Type="AryxSentinelTurret" CanBuild="true" />
+        <BlockConfig Type="ARYXShrikeBombBay" CanBuild="true" />
+        <BlockConfig Type="AryxSmallPulseLaserFixed" CanBuild="true" />
+        <BlockConfig Type="AryxSpartanCannon" CanBuild="true" />
+        <BlockConfig Type="AryxTempestCannon" CanBuild="true" />
+        <BlockConfig Type="AryxTsunamiCannon" CanBuild="true" />
+        <BlockConfig Type="AryxTyphoonCannon" CanBuild="true" />
+        <BlockConfig Type="ARYXVariableLaser" CanBuild="true" />
+        <BlockConfig Type="ARYXVulcanBase" CanBuild="true" />
+        <BlockConfig Type="AryxWarriorGatling" CanBuild="true" />
+        <BlockConfig Type="AWE_Echo_Autocannon" CanBuild="true" />
+        <BlockConfig Type="AWE_MarkV_SuperLaser" CanBuild="true" />
+        <BlockConfig Type="AWE_Small_Hangar_Bay" CanBuild="true" />
+        <BlockConfig Type="AWEAtlasGatling" CanBuild="true" />
+        <BlockConfig Type="AWEFocusLance" CanBuild="true" />
+        <BlockConfig Type="AWEHeavyCoilgun" CanBuild="true" />
+        <BlockConfig Type="AWEIonCannonLarge" CanBuild="true" />
+        <BlockConfig Type="AWEKingswordCoilcannon" CanBuild="true" />
+        <BlockConfig Type="AWELightCoilgun" CanBuild="true" />
+        <BlockConfig Type="AWEProwlerGatling" CanBuild="true" />
+        <BlockConfig Type="AWERailgun" CanBuild="true" />
+        <BlockConfig Type="AWESiegeCannon" CanBuild="true" />
+        <BlockConfig Type="AWEWarriorGun" CanBuild="true" />
+        <BlockConfig Type="ChordAutoCannon" CanBuild="true" />
+        <BlockConfig Type="LG_ARYXHydra_Base" CanBuild="true" />
+        <BlockConfig Type="LG_ARYXJury_Base" CanBuild="true" />
+        <BlockConfig Type="LG_AryxLongbowLauncher" CanBuild="true" />
+        <BlockConfig Type="LG_ARYXMissileBattery_Base" CanBuild="true" />
+        <BlockConfig Type="LG_ARYXPlasmaBeamCannon_Base" CanBuild="true" />
+        <BlockConfig Type="LG_AryxSalvoLauncher" CanBuild="true" />
+        <BlockConfig Type="LG_AryxTorpLauncher" CanBuild="true" />
+        <BlockConfig Type="LG_GaussCannon" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+    <BlockGroupConfig BlockType="2023664724.sbm">
+      <BlockConfigs>
+        <BlockConfig Type="Fixed_T2" CanBuild="true" />
+        <BlockConfig Type="MA_AC150" CanBuild="true" />
+        <BlockConfig Type="MA_AC150_30" CanBuild="true" />
+        <BlockConfig Type="MA_AC150_45" CanBuild="true" />
+        <BlockConfig Type="MA_AC150_45_Gantry" CanBuild="true" />
+        <BlockConfig Type="MA_Blister" CanBuild="true" />
+        <BlockConfig Type="MA_Blister30_Base" CanBuild="true" />
+        <BlockConfig Type="MA_Blister30_Base2" CanBuild="true" />
+        <BlockConfig Type="MA_Blister45_Base" CanBuild="true" />
+        <BlockConfig Type="MA_Crouching_Tiger" CanBuild="true" />
+        <BlockConfig Type="MA_Derecho" CanBuild="true" />
+        <BlockConfig Type="MA_EMP" CanBuild="true" />
+        <BlockConfig Type="MA_Fixed_T2" CanBuild="true" />
+        <BlockConfig Type="MA_Fixed_T3" CanBuild="true" />
+        <BlockConfig Type="MA_Gimbal_Laser" CanBuild="true" />
+        <BlockConfig Type="MA_Gimbal_Laser_Armored" CanBuild="true" />
+        <BlockConfig Type="MA_Gimbal_Laser_Armored_Slope" CanBuild="true" />
+        <BlockConfig Type="MA_Gimbal_Laser_Armored_Slope2" CanBuild="true" />
+        <BlockConfig Type="MA_Gimbal_Laser_Armored_Slope45" CanBuild="true" />
+        <BlockConfig Type="MA_Gimbal_Laser_T2" CanBuild="true" />
+        <BlockConfig Type="MA_Gimbal_Laser_T2_Armored" CanBuild="true" />
+        <BlockConfig Type="MA_Gimbal_Laser_T2_Armored_Slope" CanBuild="true" />
+        <BlockConfig Type="MA_Gimbal_Laser_T2_Armored_Slope2" CanBuild="true" />
+        <BlockConfig Type="MA_Gimbal_Laser_T2_Armored_Slope45" CanBuild="true" />
+        <BlockConfig Type="MA_Gladius" CanBuild="true" />
+        <BlockConfig Type="MA_Guardian" CanBuild="true" />
+        <BlockConfig Type="MA_Interior_Laser" CanBuild="true" />
+        <BlockConfig Type="MA_Interior_Light" CanBuild="true" />
+        <BlockConfig Type="MA_Meatball_Base" CanBuild="true" />
+        <BlockConfig Type="MA_PDT" CanBuild="true" />
+        <BlockConfig Type="MA_PDX" CanBuild="true" />
+        <BlockConfig Type="MA_T2PDX" CanBuild="true" />
+        <BlockConfig Type="MA_T2PDX_Slope" CanBuild="true" />
+        <BlockConfig Type="MA_T2PDX_Slope2" CanBuild="true" />
+        <BlockConfig Type="MA_Tiger" CanBuild="true" />
+        <BlockConfig Type="MA_Tiger_30" CanBuild="true" />
+      </BlockConfigs>
+    </BlockGroupConfig>
+  </ModBlockConfigs>
+</DisableBlocksSettingsConfig>

@@ -147,6 +147,11 @@
     <EnemyTargetIndicatorDistance>20</EnemyTargetIndicatorDistance>
   </Settings>
   <Mods>
+    <ModItem FriendlyName="SAIDSCoresAddon">
+      <Name>3040878861.sbm</Name>
+      <PublishedFileId>3040878861</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="SpaceAIDS ShipCore Config">
       <Name>3037825971.sbm</Name>
       <PublishedFileId>3037825971</PublishedFileId>
@@ -391,18 +396,6 @@
       <Name>2806101561.sbm</Name>
       <PublishedFileId>2806101561</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Rich HUD Master">
-      <Name>1965654081.sbm</Name>
-      <PublishedFileId>1965654081</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
-    <ModItem FriendlyName="Camera Panning - rotate camera view (+reset 1st person character view)">
-      <Name>806331071.sbm</Name>
-      <PublishedFileId>806331071</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
     </ModItem>
   </Mods>
   <SessionName>spaceaidsbuildworld</SessionName>

@@ -1,5 +1,8 @@
 name: "Upload buildowrld"
 
+on:
+  push:
+
 jobs:
   upload:
     runs-on: ubuntu-latest
